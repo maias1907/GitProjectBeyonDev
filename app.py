@@ -1,4 +1,4 @@
-from flask import Flask, send_file, request
+from flask import Flask
 
 app = Flask(__name__)
 
@@ -9,7 +9,7 @@ def home():
 
 
 @app.route("/status")
-def home():
+def status():
     return "OK"
 
 
@@ -29,7 +29,7 @@ def contact():
 
 
 @app.route("/chat")
-def contact():
+def chat():
     return "You can chat with live agent!"
 
 
@@ -39,11 +39,9 @@ def services():
 
 
 @app.route("/internal")
-def home():
+def internal():
     return "System management portal"
 
 
 if __name__ == "__main__":
     app.run(debug=True, port=8081, host="0.0.0.0")
-
-
