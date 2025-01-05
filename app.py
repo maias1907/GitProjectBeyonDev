@@ -32,16 +32,6 @@ def contact():
 def contact():
     return "You can chat with live agent!"
 
-@app.route("/services")
-def services():
-    return "Our Services"
-
-@app.route("/internal")
-def internal():
-    return "Internal Page"
-
 
 if __name__ == "__main__":
     app.run(debug=True, port=8080, host="0.0.0.0")
-
-
