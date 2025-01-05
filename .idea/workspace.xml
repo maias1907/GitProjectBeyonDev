@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9c55d36-569c-4420-b02f-edc5e5f0ab28" name="Changes" comment="part1" />
+    <list default="true" id="a9c55d36-569c-4420-b02f-edc5e5f0ab28" name="Changes" comment="part2">
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,11 +91,20 @@
       <option name="project" value="LOCAL" />
       <updated>1735918528526</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="part2">
+      <option name="closed" value="true" />
+      <created>1736071593412</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736071593412</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="part1" />
-    <option name="LAST_COMMIT_MESSAGE" value="part1" />
+    <MESSAGE value="part2" />
+    <option name="LAST_COMMIT_MESSAGE" value="part2" />
   </component>
 </project>
