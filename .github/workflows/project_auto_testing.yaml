@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
       - uses: actions/checkout@v2
         with:
-          repository: maias1907/GitProject
+          repository: alonitac/GitProject
           path: GitProjectOriginal
       - name: Copy test files
         run: mv -f GitProjectOriginal/test/* test/
@@ -32,7 +32,7 @@ jobs:
           fetch-depth: 0
       - uses: actions/checkout@v2
         with:
-          repository: maias1907/GitProject
+          repository: alonitac/GitProject
           path: GitProjectOriginal
       - name: Copy test files
         run: mv -f GitProjectOriginal/test/* test/
@@ -49,7 +49,7 @@ jobs:
           fetch-depth: 0
       - uses: actions/checkout@v2
         with:
-          repository: maias1907/GitProject
+          repository: alonitac/GitProject
           path: GitProjectOriginal
       - name: Copy test files
         run: mv -f GitProjectOriginal/test/* test/
